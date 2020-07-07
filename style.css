@@ -95,3 +95,101 @@ p, ul li{
 .smartphone, .laptop{
     padding-top: 60px;
 }
+.category{
+    padding-top: 100px;
+}
+.single-cat {
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px 5px;
+}
+.single-cat:hover {
+    transform: translateY(-10px);
+    transition: .5s ease-in-out;
+}
+.single-cat a h4{
+    color: #2c2c2c;
+    margin-top: 8px;
+  }
+
+  /* === Start About Section === */
+.about {
+    padding: 110px 0;
+  }
+  
+  .about img {
+    width: 150px;
+  }
+  
+  .about h3 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .about ul li {
+    padding: 5px 0;
+  }
+
+  /* Contact Section  */
+.contact {
+    padding: 100px 0;
+    background-color: #F7EDE1;
+  }
+  
+  .contact h3 {
+    padding-bottom: 20px;
+  }
+  
+  .contact .fas {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* === Start Footer Section === */
+.footer {
+    background-color: #F7EDE1;
+    padding-top: 10px;
+  }
+  
+  .footer img {
+    width: 115px;
+  }
+  
+  .footer p, .footer a {
+    font-size: 15px;
+    color: #707070;
+  }
+  
+  .footer a:hover {
+    color: #FF9D00;
+  }
+  
+  .social-media li a {
+    display: block;
+    text-align: center;
+    width: 27px;
+    height: 27px;
+    background-color: #000000;
+    border-radius: 50%;
+  }
+  
+  .social-media .fab{
+    color: #FFF;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .social-media a:hover {
+    background-image: linear-gradient(to left, #FF9C35, #FFD019);
+  }
+  /* === End Footer Section === */
+  
+  /* === Start Media Queries === */
+  @media screen and (max-width: 480px) {
+    .contact {
+      padding: 50px 0;
+    }
+    .about {
+      padding-bottom: 50px;
+    }
+  }
